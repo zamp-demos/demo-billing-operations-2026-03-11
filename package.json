@@ -1,12 +1,11 @@
 {
   "name": "zamp-dashboard",
   "private": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node -e \"const fs=require('fs');const p='src/main.jsx';if(!fs.existsSync(p)){fs.mkdirSync('src',{recursive:true});fs.writeFileSync(p,\\\"import{StrictMode}from'react';import{createRoot}from'react-dom/client';import'./index.css';import App from'./App.jsx';createRoot(document.getElementById('root')).render(<StrictMode><App/></StrictMode>);\\\")}console.log('src dir:',fs.readdirSync('src'));\"",
-    "build": "vite build",
+    "build": "echo 'Using pre-built files in public/'",
     "start": "node interaction-server.cjs",
     "lint": "eslint .",
     "preview": "vite preview"
