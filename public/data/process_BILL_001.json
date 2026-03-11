@@ -1,0 +1,16 @@
+{
+    "logs": [],
+    "keyDetails": {
+        "clientName": "Mercedes Benz",
+        "clientCode": "AE123456",
+        "contractDate": "07/21/2021",
+        "contractTerm": "5 Years",
+        "totalAmount": "$1,000,000",
+        "poReference": "473283819398374",
+        "projectName": "Billing Operations",
+        "projectManager": "John Smith",
+        "clientPOC": "Adam Taylor",
+        "billingPeriod": "March 2025"
+    },
+    "sidebarArtifacts": []
+}

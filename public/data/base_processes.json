@@ -1,0 +1,15 @@
+[
+    {
+        "id": "BILL_001",
+        "category": "Billing Operations",
+        "name": "Mercedes Benz Monthly Billing Cycle (March 2025)",
+        "stockId": "INV-2025-03-001",
+        "year": "2025-04-01",
+        "status": "In Progress",
+        "currentStatus": "Initializing billing cycle...",
+        "clientName": "Mercedes Benz",
+        "clientCode": "AE123456",
+        "contractTotal": "$1,000,000",
+        "projectManager": "John Smith"
+    }
+]
