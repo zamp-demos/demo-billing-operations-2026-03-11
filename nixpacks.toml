@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["nodejs_22"]
+
+[phases.install]
+cmds = ["npm ci"]
+
+[phases.build]
+cmds = ["echo 'Building with src/main.jsx present:' && ls src/ && npm run build"]
+
+[start]
+cmd = "node interaction-server.cjs"
